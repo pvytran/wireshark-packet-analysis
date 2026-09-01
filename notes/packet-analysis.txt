@@ -1,1 +1,35 @@
+Wireshark Packet Analysis Findings
 
+1. IP Analysis
+Observed communication between the Kali Linux and Ubuntu
+virtual machines on the isolated lab network.
+
+2. ICMP Analysis
+Observed ICMP Echo Request and Echo Reply packets generated
+by ping.
+
+3. DNS Analysis
+Observed DNS queries generated using nslookup and analyzed
+the queried domain and returned address.
+
+4. TCP Analysis
+Observed TCP traffic and identified TCP flags associated
+with connection establishment.
+
+5. TCP Three-Way Handshake
+Observed SYN, SYN/ACK, and ACK packets during TCP connection
+establishment.
+
+6. HTTP Analysis
+Captured HTTP traffic from the isolated lab web server and
+identified HTTP requests and responses.
+
+7. TCP Stream
+Used Wireshark Follow TCP Stream to examine communication
+between the client and server.
+
+Conclusion:
+Wireshark was used to capture and analyze network traffic at
+multiple protocol layers. The lab provided hands-on experience
+with packet filtering, protocol identification, TCP analysis,
+DNS analysis, and network troubleshooting.
